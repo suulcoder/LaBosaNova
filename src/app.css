@@ -1,0 +1,11 @@
+@font-face {
+    font-family: "Encode Sans Semi Expanded";   /*Can be any text*/
+    src: local("Orbitron-VariableFont_wght"),
+      url("./fonts/Orbitron-VariableFont_wght.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Nico Moji";   /*Can be any text*/
+    src: local("BrunoAceSC-Regular"),
+        url("./fonts/BrunoAceSC-Regular.ttf") format("truetype");
+}
