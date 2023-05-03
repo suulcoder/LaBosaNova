@@ -9,9 +9,9 @@ const Leaderboard = ({}) => {
         objects.push(
             {
                 user: 'xxxxxxx', 
-                store: 'spotify',
+                store: 'Spotify',
                 streams: '192920',
-                prizes: ['taco','mac']
+                prizes: ['Spotify','Apple']
             }
         )
         
@@ -107,9 +107,15 @@ const Leaderboard = ({}) => {
             {objects.map(row => (
                 <div className="Table-row">
                     <div className="Table-item">{row.user}</div>
-                    <div className="Table-item">{row.store}</div>
+                    <div className="Table-item">
+                        <div className={row.store + "-link"}>
+
+                        </div>
+                    </div>
                     <div className="Table-item">{row.streams}</div>
-                    <div className="Table-item">{row.prizes}</div>
+                    <div className="Table-item">{
+                    row.prizes.map(prize => <div className={prize + "-link"}>                    </div>)
+                    }</div>
                 </div>
             ))}
         </div>
