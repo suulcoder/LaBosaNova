@@ -1,0 +1,184 @@
+.Leaderboard {
+    background-color: black;
+    width: 100vw;
+    position: absolute;
+    top: 100vh;
+    color: #9C7711;
+}
+
+.Header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.timer {
+    margin: 36px;
+}
+
+.timer-title {
+    font-family: 'Encode Sans Semi Expanded';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.timer-time {
+    display: flex;
+    flex-direction: row;
+}
+
+.timer-number {
+    font-family: 'Nico Moji';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 38px;
+    text-align: center;
+}
+
+.timer-text {
+    font-family: 'Encode Sans Semi Expanded';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-align: center;
+}
+
+.timer-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Leaderboard-title {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Leaderboard-title-title {
+    font-family: 'Nico Moji';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 46px;
+    line-height: 46px;
+    margin-bottom: 24px;
+}
+
+.Leaderboard-title-button {
+    font-family: 'Encode Sans Semi Expanded';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 240px;
+    height: 34px;
+    background: #9C7711;
+    border-radius: 22px;
+    color: #000000;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 12px;
+}
+
+.Leaderboard-title-description {
+    font-family: 'Encode Sans Semi Expanded';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.leaderboard-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin: 36px;
+}
+
+.leaderboard-links-title{
+    font-family: 'Encode Sans Semi Expanded';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    max-width: 200px;
+}
+
+.leaderboard-links-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin-top: 28px;
+}
+
+.Spotify-link {
+    width: 23px;
+    height: 23px;
+    background-repeat: no-repeat;
+    background-size: 23px !important;
+    background: url('../../images/Spotify\ Logo.png');
+    margin: 0px 3px;
+}
+
+.Amazon-link {
+    width: 23px;
+    height: 23px;
+    background-repeat: no-repeat;
+    background-size: 28px !important;
+    background: url('../../images/Amazon\ Logo.png');
+    margin: 0px 3px;
+}
+
+.Youtube-link {
+    width: 23px;
+    height: 23px;
+    background-repeat: no-repeat;
+    background-size: 23px !important;
+    background: url('../../images/Youtube\ Logo.png');
+    margin: 0px 3px;
+}
+
+.Deezer-link {
+    width: 23px;
+    height: 23px;
+    background-repeat: no-repeat;
+    background-size: 23px !important;
+    background: url('../../images/Deezer.png');
+    margin: 0px 3px;
+}
+
+.Apple-link {
+    width: 23px;
+    height: 23px;
+    background-repeat: no-repeat;
+    background-size: 24px !important;
+    background: url('../../images/Apple\ Logo.png');
+    margin: 0px 3px;
+}
