@@ -3,6 +3,19 @@ import React, { Fragment, useRef } from "react";
 import "./styles.css";
 
 const Leaderboard = ({}) => {
+    let objects = []
+
+    for (let index = 0; index < 20; index++) {
+        objects.push(
+            {
+                user: 'xxxxxxx', 
+                store: 'spotify',
+                streams: '192920',
+                prizes: ['taco','mac']
+            }
+        )
+        
+    }
 
   return (
     <div className="Leaderboard">
@@ -76,7 +89,30 @@ const Leaderboard = ({}) => {
                 </div>
             </div>
         </div>
-        <div className="Table"></div>
+        <div className="Table">
+            <div className="Table-header">
+                <div className="Table-header-title">
+                    USUARIO
+                </div>
+                <div className="Table-header-title">
+                    TIENDA
+                </div>
+                <div className="Table-header-title">
+                    REPRODUCCIONES
+                </div>
+                <div className="Table-header-title">
+                    PREMIOS
+                </div>
+            </div>
+            {objects.map(row => (
+                <div className="Table-row">
+                    <div className="Table-item">{row.user}</div>
+                    <div className="Table-item">{row.store}</div>
+                    <div className="Table-item">{row.streams}</div>
+                    <div className="Table-item">{row.prizes}</div>
+                </div>
+            ))}
+        </div>
     </div>
 )};
 
